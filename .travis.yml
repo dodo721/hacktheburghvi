@@ -1,6 +1,6 @@
 language: java
 script:
   - mkdir out
-  - javac -d ./out *.java
+  - javac -d ./out ./src/com/hacktheburgh/skb/*.java
   - cd out
   - jar cvf AppletonOccupied.jar *
