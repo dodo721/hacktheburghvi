@@ -1,1 +1,6 @@
 language: java
+script:
+  - mkdir out
+  - javac -d ./out *.java
+  - cd out
+  - jar cvf AppletonOccupied.jar *
